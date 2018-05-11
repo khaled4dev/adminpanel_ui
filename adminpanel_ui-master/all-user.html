@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all-user.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row nop">
+            <div class="sidebar col-lg-4">
+                <div class="top">
+                    <div class="logo-img">
+                        <img src="logo.png" alt="" width="30" height="30">
+                    </div>
+                    <p>Asteriisc</p>
+                </div>
+                <div class="main">
+                    <ul class="list-unstyled components">
+                        <li class="active q">
+
+                            <!-- Link with dropdown items -->
+                            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="anc anc1">
+                                <span class="ico">
+                                    <i class="fa fa-user "></i>
+                                </span> Users
+                                <span class="pull-right">
+                                    <i class="fa fa-sort-down "></i>
+                                </span>
+                            </a>
+
+                            <ul class="collapse list-unstyled" id="homeSubmenu">
+                                <li>
+                                    <a href="all-user.html">All users</a>
+                                </li>
+                                <li>
+                                    <a href="Add-user.html">Add user</a>
+                                </li>
+                                <li>
+                                    <a href="#">Page</a>
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li class="q">
+
+                            <a href="#adminSubmenu" data-toggle="collapse" aria-expanded="false">
+                                <span class="ico">
+                                    <i class="fa fa-user-circle"></i>
+                                    <!-- Link with dropdown items -->
+                                </span> Admin
+                                <span class="pull-right">
+                                    <i class="fa fa-sort-down"></i>
+                                </span>
+                            </a>
+
+                            <ul class="collapse list-unstyled" id="adminSubmenu">
+                                <li>
+                                    <a href="#">All Admin</a>
+                                </li>
+                                <li>
+                                    <a href="#">Add Admin</a>
+                                </li>
+                                <li>
+                                    <a href="#">Page</a>
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li class="q">
+
+                            <!-- Link with dropdown items -->
+                            <a href="#orgSubmenu" data-toggle="collapse" aria-expanded="false">
+                                <span class="ico">
+                                    <i class="fa fa-sitemap"></i>
+                                </span> Organization
+                                <span class="pull-right">
+                                    <i class="fa fa-sort-down"></i>
+                                </span>
+                            </a>
+                            <ul class="collapse list-unstyled" id="orgSubmenu">
+                                <li>
+                                    <a href="#">All Organization</a>
+                                </li>
+                                <li>
+                                    <a href="#"> Add Organization</a>
+                                </li>
+                                <li>
+                                    <a href="#">Page</a>
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li class="q">
+                            <!-- Link with dropdown items -->
+                            <a href="#catSubmenu" data-toggle="collapse" aria-expanded="false">
+                                <span class="ico">
+                                    <i class="fa fa-sitemap"></i>
+                                </span> Categories
+                                <span class="pull-right">
+                                    <i class="fa fa-sort-down"></i>
+                                </span>
+                            </a>
+
+                            <ul class="collapse list-unstyled" id="catSubmenu">
+                                <li>
+                                    <a href="#">Page</a>
+                                </li>
+                                <li>
+                                    <a href="#">Page</a>
+                                </li>
+                                <li>
+                                    <a href="#">Page</a>
+                                </li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-div col-lg-8">
+                <div class="navi">
+                    <div class="col-md-3 bars">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <div class="col-md-5 search">
+                        <div class="search-ico">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <input type="text" placeholder="Search..">
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="dropdown pull-right drop">
+                            <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Md khaled
+                            <span class="caret"></span>
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Setting</a>
+                                </li>
+                                <li class="divider">
+                                </li>
+                                <li>
+                                    <a href="#">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <section id="main">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h1>All-user</h1>
+                        <p>There are 244 registered users</p>
+                    </div>
+                    <div class="col-sm-4 ">
+                        <ol class="breadcrumb all-right pull-right">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">All-users</a></li>
+                            <li><a href="">data</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <section id="main">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <section class=" bordered-panel">
+                                <header class="panel-heading">
+                                    <h3 class="panel-title">FILTER BY STATUS</h3>
+                                </header>
+                                <div class="panel-body">
+                                    <div class="top-user">
+                                        <label for="admin-checkbox" class="label-primary form-control">
+                                    <input type="checkbox" class="tiny checkbox-danger labelauty">
+                                      <span>Administrator</span>  
+                                   </label>
+                                    </div>
+                                    <div class="top-user">
+                                        <label for="admin-checkbox" class="label-danger form-control">
+                                            <input type="checkbox" class="tiny checkbox-danger labelauty">
+                                              <span>Administrator</span>  
+                                           </label>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="btn-group margin-bottom-30 pull-right">
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                      New User <span class="caret"></span>
+                                    </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#" class="">Administrator</a></li>
+                                    <li><a href="#" class="">Editor</a></li>
+                                    <li><a href="#" class="">Subscriber</a></li>
+                                    <li><a href="#" class="">Member</a></li>
+                                    <li><a href="#" class="">User</a></li>
+                            </div>
+
+
+                            <table class="table users-table table-hover">
+                                <tbody>
+
+                                    <tr>
+                                        <th class="picture" scope="row">
+                                            <div class="img-container">
+                                                <img src="user.png" alt="">
+                                            </div>
+                                        </th>
+                                        <td class="username">
+                                            <div><a href="profile.php">Bruno Q.</a></div>
+                                            <div><span class="label label-danger">administrator</span></div>
+                                        </td>
+                                        <td class="useremail hidden-xs">
+                                            <div>brunoq@demoemail.com</div>
+                                        </td>
+                                        <td class="userphone hidden-xs">
+                                            <div>(11) 5555-5555</div>
+                                        </td>
+                                        <td class="userevents text-right">
+                                            <a href="#" class="btn btn-xs btn-primary">edit</a>
+                                            <a href="#" class="delete-btn btn btn-xs btn-danger">delete</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th class="picture" scope="row">
+                                            <div class="img-container">
+                                                <img src="user.png" alt="">
+                                            </div>
+                                        </th>
+                                        <td class="username">
+                                            <div><a href="profile.php">Silvina A.</a></div>
+                                            <div><span class="label label-danger">administrator</span></div>
+                                        </td>
+                                        <td class="useremail hidden-xs">
+                                            <div>silvinaa@demoemail.com</div>
+                                        </td>
+                                        <td class="userphone hidden-xs">
+                                            <div>(11) 6666-6666</div>
+                                        </td>
+                                        <td class="userevents text-right">
+                                            <a href="#" class="btn btn-xs btn-primary">edit</a>
+                                            <a href="#" class="delete-btn btn btn-xs btn-danger">delete</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th class="picture" scope="row">
+                                            <div class="img-container">
+                                                <img src="user.png" alt="">
+                                            </div>
+                                        </th>
+                                        <td class="username">
+                                            <div><a href="profile.php">Jon Snow</a></div>
+                                            <div><span class="label label-warning">editor</span></div>
+                                        </td>
+                                        <td class="useremail hidden-xs">
+                                            <div>jonsnow@demoemail.com</div>
+                                        </td>
+                                        <td class="userphone hidden-xs">
+                                            <div>(11) 7777-7777</div>
+                                        </td>
+                                        <td class="userevents text-right">
+                                            <a href="#" class="btn btn-xs btn-primary">edit</a>
+                                            <a href="#" class="delete-btn btn btn-xs btn-danger">delete</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th class="picture" scope="row">
+                                            <div class="img-container">
+                                                <img src="user.png" alt="">
+                                            </div>
+                                        </th>
+                                        <td class="username">
+                                            <div><a href="profile.php">Mia Canina</a></div>
+                                            <div><span class="label label-info">user</span></div>
+                                        </td>
+                                        <td class="useremail hidden-xs">
+                                            <div>mia@demoemail.com</div>
+                                        </td>
+                                        <td class="userphone hidden-xs">
+                                            <div>(11) 1111-1111</div>
+                                        </td>
+                                        <td class="userevents text-right">
+                                            <a href="#" class="btn btn-xs btn-primary">edit</a>
+                                            <a href="#" class="delete-btn btn btn-xs btn-danger">delete</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th class="picture" scope="row">
+                                            <div class="img-container">
+                                                <img src="user.png" alt="">
+                                            </div>
+                                        </th>
+                                        <td class="username">
+                                            <div><a href="profile.php">Steven Tyler</a></div>
+                                            <div><span class="label label-info">user</span></div>
+                                        </td>
+                                        <td class="useremail hidden-xs">
+                                            <div>steve@demoemail.com</div>
+                                        </td>
+                                        <td class="userphone hidden-xs">
+                                            <div>(11) 2222-2222</div>
+                                        </td>
+                                        <td class="userevents text-right">
+                                            <a href="#" class="btn btn-xs btn-primary">edit</a>
+                                            <a href="#" class="delete-btn btn btn-xs btn-danger">delete</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th class="picture" scope="row">
+                                            <div class="img-container">
+                                                <img src="user.png" alt="">
+                                            </div>
+                                        </th>
+                                        <td class="username">
+                                            <div><a href="profile.php">Tom Riddle</a></div>
+                                            <div><span class="label label-info">user</span></div>
+                                        </td>
+                                        <td class="useremail hidden-xs">
+                                            <div>riddle@demoemail.com</div>
+                                        </td>
+                                        <td class="userphone hidden-xs">
+                                            <div>(11) 2222-2222</div>
+                                        </td>
+                                        <td class="userevents text-right">
+                                            <a href="#" class="btn btn-xs btn-primary">edit</a>
+                                            <a href="#" class="delete-btn btn btn-xs btn-danger">delete</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th class="picture" scope="row">
+                                            <div class="img-container">
+                                                <img src="user.png" alt="">
+                                            </div>
+                                        </th>
+                                        <td class="username">
+                                            <div><a href="profile.php">Janette Doe</a></div>
+                                            <div><span class="label label-info">user</span></div>
+                                        </td>
+                                        <td class="useremail hidden-xs">
+                                            <div>jt.doe@demoemail.com</div>
+                                        </td>
+                                        <td class="userphone hidden-xs">
+                                            <div>(11) 2222-2222</div>
+                                        </td>
+                                        <td class="userevents text-right">
+                                            <a href="#" class="btn btn-xs btn-primary">edit</a>
+                                            <a href="#" class="delete-btn btn btn-xs btn-danger">delete</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th class="picture" scope="row">
+                                            <div class="img-container">
+                                                <img src="user.png" alt="">
+                                            </div>
+                                        </th>
+                                        <td class="username">
+                                            <div><a href="profile.php">Old person</a></div>
+                                            <div><span class="label label-info">user</span></div>
+                                        </td>
+                                        <td class="useremail hidden-xs">
+                                            <div>o.person@demoemail.com</div>
+                                        </td>
+                                        <td class="userphone hidden-xs">
+                                            <div>(11) 2222-2222</div>
+                                        </td>
+                                        <td class="userevents text-right">
+                                            <a href="#" class="btn btn-xs btn-primary">edit</a>
+                                            <a href="#" class="delete-btn btn btn-xs btn-danger">delete</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th class="picture" scope="row">
+                                            <div class="img-container">
+                                                <img src="user.png" alt="">
+                                            </div>
+                                        </th>
+                                        <td class="username">
+                                            <div><a href="profile.php">Daniel D.</a></div>
+                                            <div><span class="label label-info">user</span></div>
+                                        </td>
+                                        <td class="useremail hidden-xs">
+                                            <div>dd@demoemail.com</div>
+                                        </td>
+                                        <td class="userphone hidden-xs">
+                                            <div>(11) 2222-2222</div>
+                                        </td>
+                                        <td class="userevents text-right">
+                                            <a href="#" class="btn btn-xs btn-primary">edit</a>
+                                            <a href="#" class="delete-btn btn btn-xs btn-danger">delete</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th class="picture" scope="row">
+                                            <div class="img-container">
+                                                <img src="user.png" alt="">
+                                            </div>
+                                        </th>
+                                        <td class="username">
+                                            <div><a href="profile.php">Courtney L.</a></div>
+                                            <div><span class="label label-info">user</span></div>
+                                        </td>
+                                        <td class="useremail hidden-xs">
+                                            <div>nirvana@demoemail.com</div>
+                                        </td>
+                                        <td class="userphone hidden-xs">
+                                            <div>(11) 2222-2222</div>
+                                        </td>
+                                        <td class="userevents text-right">
+                                            <a href="#" class="btn btn-xs btn-primary">edit</a>
+                                            <a href="#" class="delete-btn btn btn-xs btn-danger">delete</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th class="picture" scope="row">
+                                            <div class="img-container">
+                                                <img src="user.png" alt="">
+                                            </div>
+                                        </th>
+                                        <td class="username">
+                                            <div><a href="profile.php">C. Blanco</a></div>
+                                            <div><span class="label label-info">user</span></div>
+                                        </td>
+                                        <td class="useremail hidden-xs">
+                                            <div>blanco.c@demoemail.com</div>
+                                        </td>
+                                        <td class="userphone hidden-xs">
+                                            <div>(11) 2222-2222</div>
+                                        </td>
+                                        <td class="userevents text-right">
+                                            <a href="#" class="btn btn-xs btn-primary">edit</a>
+                                            <a href="#" class="delete-btn btn btn-xs btn-danger">delete</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th class="picture" scope="row">
+                                            <div class="img-container">
+                                                <img src="user.png" alt="">
+                                            </div>
+                                        </th>
+                                        <td class="username">
+                                            <div><a href="profile.php">C. White</a></div>
+                                            <div><span class="label label-info">user</span></div>
+                                        </td>
+                                        <td class="useremail hidden-xs">
+                                            <div>blanco.c.2@demoemail.com</div>
+                                        </td>
+                                        <td class="userphone hidden-xs">
+                                            <div>(11) 2222-2222</div>
+                                        </td>
+                                        <td class="userevents text-right">
+                                            <a href="#" class="btn btn-xs btn-primary">edit</a>
+                                            <a href="#" class="delete-btn btn btn-xs btn-danger">delete</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+            </section>
+            </div>
+        </div>
+        <!-- all-user -->
+
+
+
+        <script>
+            $('.bars').click(function() {
+                if ($('.main-div').hasClass('col-lg-8')) {
+                    $('.sidebar').removeClass('col-lg-4').css({
+                        'display': 'none'
+                    });
+                    $('.main-div').removeClass('col-lg-8').addClass('col-lg-12');
+                } else if ($('.main-div').hasClass('col-lg-12')) {
+                    $('.sidebar').css('display', 'block').addClass('col-lg-4');
+                    $('.main-div').removeClass('col-lg-12').addClass('col-lg-8');
+
+
+                }
+            });
+            $('.anc').click(function() {
+                // $('.anc').css('background-color','#162439');
+                $('ul.collapse').css('margin-top', '10px').css('width', '250px').css('margin-left', '-10px').css('padding-left', '73px').css('font-size', '12px').css('padding-top', '10px').css('padding-bottom', '5px');
+                $('ul.collapse li').css({
+                    marginBottom: '10px'
+                });
+            });
+        </script>
+
+</body>
+
+</html>
