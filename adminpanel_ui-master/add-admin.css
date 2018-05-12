@@ -8,6 +8,7 @@
 }
 .all-right{
     margin-top: 47px;
+    text-decoration: none;
 }
 .all-right li a{
     text-decoration: none;
@@ -36,13 +37,9 @@
     border: 1px solid #ddd;
     width: 490px;
     height: 300px;
-    overflow: auto;
 }
 .name{
     font-size: 100%;
     color: #959595;
 
-}
-#add-new{
-    padding: 15px;
 }

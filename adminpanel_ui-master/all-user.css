@@ -9,6 +9,10 @@
 .all-right{
     margin-top: 47px;
 }
+.all-right li a{
+    text-decoration: none;
+    color: inherit;
+}
  .bordered-panel{
     border-right: solid 4px #edb758;
     height: 300px;
