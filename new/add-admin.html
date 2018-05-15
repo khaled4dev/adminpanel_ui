@@ -1,0 +1,267 @@
+<html !DOCTYPE>
+
+<head>
+    <title>Bootstrap 3 Collapsible Sidebar</title>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="add-user.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <!-- Sidebar Header -->
+            <div class="sidebar-header">
+                <h3>
+                    <img src="logo.png" alt="" width="30px" height="30px"> Asteriisc</div>
+
+
+            <!-- Sidebar Links -->
+            <ul class="list-unstyled components">
+                <li>
+                    <!-- Link with dropdown items -->
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">
+                        <span class="ico">
+                            <i class="fa fa-user"></i>
+                        </span> Users
+                    </a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="all-user.html">All-user</a>
+                        </li>
+                        <li>
+                            <a href="add-user.html">Add-user</a>
+                        </li>
+                        <!-- <li>
+                    <a href="#">Page</a>
+                </li> -->
+                    </ul>
+                </li>
+                <li>
+                    <!-- Link with dropdown items -->
+                    <a href="#adminSubmenu" data-toggle="collapse" aria-expanded="false">
+                        <span class="ico">
+                            <i class="fa fa-user-circle"></i>
+                        </span>Admin
+                    </a>
+                    <ul class="collapse list-unstyled" id="adminSubmenu">
+                        <li>
+                            <a href="all-admin.html">All-admin</a>
+                        </li>
+                        <li>
+                            <a href="add-admin.html">Add-admin</a>
+                        </li>
+                        <!-- <li>
+                            <a href="#">Page</a>
+                        </li> -->
+                    </ul>
+                </li>
+                <li>
+                    <!-- Link with dropdown items -->
+                    <a href="#orgSubmenu" data-toggle="collapse" aria-expanded="false">
+                        <span class="ico">
+                            <i class="fa fa-sitemap"></i>
+                        </span>Organaizations
+                    </a>
+                    <ul class="collapse list-unstyled" id="orgSubmenu">
+                        <li>
+                            <a href="all-org.html">All-org</a>
+                        </li>
+                        <li>
+                            <a href="add-org.html">Add-org</a>
+                        </li>
+                        <!-- <li>
+                                    <a href="#">Page</a>
+                                </li> -->
+                    </ul>
+                </li>
+
+
+            </ul>
+        </nav>
+
+        <!-- Page Content -->
+        <div class="content a">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- We'll fill this with dummy content -->
+                    <div class="top">
+                        <div class="col-sm-2">
+                            <div id="sidebarCollapse">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                            </div>
+                        </div>
+                        <div class="col-sm-5 search">
+                            <div class="search-ico">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <input type="text" placeholder="Search..">
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="dropdown pull-right drop">
+                                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Md khaled
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">Setting</a>
+                                    </li>
+                                    <li class="divider">
+                                    </li>
+                                    <li>
+                                        <a href="#">Logout</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <section id="main">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h1>All-user</h1>
+                                <p>There are 244 registered users</p>
+                            </div>
+                            <div class="col-sm-4 ">
+                                <ol class="breadcrumb all-right pull-right">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">All-users</a></li>
+                                    <li><a href="">data</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="add-new">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <section class="panel">
+                                        <header class="panel-heading">
+                                            <h3 class="panel-title">Personal information</h3>
+                                        </header>
+                                        <div class="panel-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <label for="exampleInputName" class="name">Name</label>
+                                                    <input type="email" class="form-control" id="exampleInputName">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="exampleInputLName" class="name">Last Name</label>
+                                                    <input type="email" class="form-control" id="exampleInputLName">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail1" class="name">Email</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                                        <input type="url" class="form-control" id="exampleInputEmail1">
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group col-md-6 no-left-padding">
+                                                    <label for="exampleInputPassword1" class="name">Password</label>
+                                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                                </div>
+
+                                                <div class="form-group col-md-6 no-right-padding">
+                                                    <label for="exampleInputPassword2" class="name">Repeat password</label>
+                                                    <input type="password" class="form-control" id="exampleInputPassword2">
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label for="exampleInputUrl" class="name">Website</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><i class="fa fa-globe"></i></span>
+                                                        <input type="url" class="form-control" id="exampleInputUrl">
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label for="exampleInputAddress" class="name">Address #1</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><i class="ti-home"></i></span>
+                                                        <input type="text" class="form-control" id="exampleInputAddress">
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group col-md-6 no-left-padding">
+                                                    <label for="exampleInputCity" class="name">City</label>
+                                                    <input type="text" class="form-control" id="exampleInputCity">
+                                                </div>
+
+                                                <div class="form-group col-md-6 no-right-padding">
+                                                    <label for="exampleInputZip" class="name">Zip code</label>
+                                                    <input type="text" class="form-control" id="exampleInputZip">
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label class="name">Country</label>
+                                                    <select class="form-control">
+                                                    <option value="AF" >Afghanistan</option>
+                                                    
+                                                  </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="exampleInputState" class="name">State</label>
+                                                    <select class="form-control" id="exampleInputState">
+                                                    <option value="AL">Alabama</option>
+                                                   
+                                                    <option value="WY">Wyoming</option>
+                                                  </select>
+                                                </div>
+                                                <br>
+                                                <button class="btn btn-primary">Submit</button>
+                                            </form>
+                                        </div>
+                                    </section>
+                                </div>
+                                <div class="col-md-5">
+                                    <section class="panel">
+                                        <header class="panel-heading">
+                                            <h3 class="panel-title">Profile description</h3>
+                                        </header>
+                                        <div class="panel-body">
+                                            <textarea name="" id="text" cols="80" rows="10"></textarea>
+
+                                        </div>
+
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <script>
+             $(document).ready(function () {
+
+                $('#sidebarCollapse').on('click', function () {
+                    if($('.content').hasClass('a')){
+                    $('#sidebar').toggleClass('active');
+                    $('.content').removeClass('a').css('left','0px')
+                    }else{
+                        $('#sidebar').toggleClass('active');
+                    $('.content').addClass('a').css('left','250px')
+    
+                    }
+                });
+    
+            });
+    </script>
+
+
+</body>
+
+</html>

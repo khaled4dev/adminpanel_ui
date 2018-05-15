@@ -1,0 +1,79 @@
+#main{
+    padding: 15px 36px 30px;
+    overflow: auto;
+}
+.all-right{
+    margin-top: 47px;
+}
+ .bordered-panel{
+    border-right: solid 4px #edb758;
+    height: 300px;
+}
+.panel-heading {
+    padding: 0px !important;
+}
+
+.top-user{
+    margin-bottom: 15px;
+    margin-left: -15px;
+    
+}
+.label-danger {
+    background-color: #bd5151;
+    border-color: transparent;
+    color: #ffffff
+}
+.panel-title{
+    font-size: 16px;
+    color: inherit;
+}
+input.labelauty.tiny + label {
+    height: 20px;
+    width: 20px;
+    padding: 2px 4px;
+}
+input.labelauty + label {
+    display: inline-block;
+    font-size: 11px;
+    padding: 6px;
+    background-color: #f1f0f0;
+    color: #b3b3b3;
+    cursor: pointer;
+    border-radius: 3px;
+    background-clip: padding-box;
+    transition: background-color 250ms linear;
+    height: 28px;
+    width: 28px;
+    margin-bottom: 0px;
+    margin-right: 5px
+}
+span{
+    color: white;
+}
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+.users-table .picture {
+    width: 60px;
+}
+.users-table .img-container {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 100px;
+    background-clip: padding-box;
+}
+.users-table .img-container img {
+    min-height: 50px;
+    min-width: 50px;
+    max-height: 50px;
+    width: auto;
+}
+a:hover, a:visited, a:active {
+    text-decoration: none!important;
+}
+.label {
+    font-weight: 300;
+    padding: 3px 3px 2px;
+}
+

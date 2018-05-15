@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#main{
+    padding: 15px 36px 30px;
+    overflow: auto;
+}
+.all-right{
+    margin-top: 47px;
+}
+.add-new{
+    padding: 15px 36px 30px;
+}
+.panel .panel-heading {
+    background: none;
+    background: transparent;
+    border-bottom: solid #f9f9f9 2px;
+    font-weight: bold;
+    color: #555555;
+    text-transform: uppercase;
+}
+.form-control {
+    border-radius: 0px;
+    background-clip: padding-box;
+    box-shadow: none;
+    border: solid 1px #e8e6e6;
+}
+#text{
+    border-radius: 5px;
+    resize: none;
+    border: 1px solid #ddd;
+    width: 490px;
+    height: 300px;
+}
+.name{
+    font-size: 100%;
+    color: #959595;
+
+}
